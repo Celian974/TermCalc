@@ -7,7 +7,7 @@ char *get_operator()
     yellow();
     printf("Enter an operator : ");
     reset();
-    scanf("%1s", operator);
+    scanf("%s", operator);
     if (strcmp(operator, "+") != 0 && strcmp(operator, "-") != 0
     && strcmp(operator, "*") != 0 && strcmp(operator, "/") != 0) {
         red();
