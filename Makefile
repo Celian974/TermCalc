@@ -3,13 +3,16 @@ CC     = gcc
 CFLAGS = -Iinclude -Wall -Wextra
 
 SRC    = src/main.c\
+		 \
 		 src/get_operator.c\
 		 src/get_first_number.c\
 		 src/get_second_number.c\
+		 \
 		 src/add.c\
 		 src/substract.c\
 		 src/multiply.c\
 		 src/apply_operation.c\
+		 \
 		 src/termcolors/white.c\
 		 src/termcolors/red.c\
 		 src/termcolors/blue.c\
