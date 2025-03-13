@@ -6,7 +6,14 @@ SRC    = src/main.c\
 		 src/get_operator.c\
 		 src/get_first_number.c\
 		 src/get_second_number.c\
-		 src/add.c
+		 src/add.c\
+		 src/termcolors/white.c\
+		 src/termcolors/red.c\
+		 src/termcolors/blue.c\
+		 src/termcolors/purple.c\
+		 src/termcolors/cyan.c\
+		 src/termcolors/yellow.c\
+		 src/termcolors/reset.c
 
 OBJ    = $(SRC:.c=.o)
 
@@ -22,6 +29,7 @@ $(EXE): $(OBJ)
 
 clean:
 	rm -f src/*.o
+	rm -f src/termcolors/*.o
 
 fclean: clean
 	rm -f $(EXE)
