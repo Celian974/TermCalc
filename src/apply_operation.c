@@ -35,6 +35,18 @@ int apply_operation(char *operator, int n1, int n2, op_result *result)
             printf("Error occured during multiplication.\n");
             reset();
         }
+    } else if (strcmp(operator, "/") == 0) {
+        result->div_result = divide(n1, n2);
+        if (result->div_result != ERROR_VALUE) {
+            if (fmod(result->div_result, 1.0) == 0.0) {
+                white();
+                printf("%d / %d = %.0f\n", n1, n2, result->div_result);
+                reset();
+            } else {
+                white();
+                printf("%d / %d = %.1f\n", n1, n2, result->div_result);
+            }
+        }
     }
     return 0;
 }
