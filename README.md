@@ -20,11 +20,13 @@ To install **TermCalc**, follow these steps :
 
 
     - Using SSH
+
     ```
     git clone git@github.com:Celian974/TermCalc.git
     ```
 
     - Using HTTPS
+
     ```
     git clone https://github.com/Celian974/TermCalc.git
     ```
