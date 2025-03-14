@@ -1,6 +1,6 @@
 CC     = gcc
 
-CFLAGS = -Iinclude -Wall -Wextra
+CFLAGS = -Iinclude -Wall -Wextra -lm
 
 SRC    = src/main.c\
 		 \
@@ -11,6 +11,7 @@ SRC    = src/main.c\
 		 src/add.c\
 		 src/substract.c\
 		 src/multiply.c\
+		 src/divide.c\
 		 src/apply_operation.c\
 		 \
 		 src/termcolors/white.c\
