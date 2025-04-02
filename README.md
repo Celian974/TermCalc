@@ -21,26 +21,26 @@ To install **TermCalc**, follow these steps :
 
     - Using SSH
 
-    ```
+    ```bash
     git clone git@github.com:Celian974/TermCalc.git
     ```
 
     - Using HTTPS
 
-    ```
+    ```bash
     git clone https://github.com/Celian974/TermCalc.git
     ```
 
 2. Navigate to **TermCalc** directory
 
-    ```
+    ```bash
     cd TermCalc
     ```
 
 3. Build the program
 
     - Use the provided *Makefile* to compile the program.
-    ```
+    ```bash
     make
     ```
    This will result in generating the compiled *termcalc* in the directory.
@@ -49,19 +49,19 @@ To install **TermCalc**, follow these steps :
 
 1. Launch the calculator program by running the following commmand :
 
-    ```
+    ```bash
     ./termcalc
     ```
 2. You will be prompted to enter an operator (**'+'**, **'-'**, **'*'**, **'/'**). Do it and press **Enter** :
 
-    ```
+    ```bash
     ➜  TermCalc git:(main) ✗ ./termcalc
     Welcome to Termcalc !
     Enter an operator : +
     ```
 3. You will be prompted to enter a first number, and then a second. Do it and press **Enter** for the program to display the result:
 
-    ```
+    ```bash
     ➜  TermCalc git:(main) ✗ ./termcalc
     Welcome to Termcalc !
     Enter an operator : +
