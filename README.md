@@ -72,7 +72,7 @@ To install **TermCalc**, follow these steps :
 
 4. You can keep doing so until you are done with the calculations you want to do. To exit the program at any time, press **Ctrl+C** :
 
-    ```
+    ```bash
     ➜  TermCalc git:(main) ✗ ./termcalc
     Welcome to Termcalc !
     Enter an operator : ^C
